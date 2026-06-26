@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BONSAI × Digital Ownership — MIYOSHI BOUND</title>
+  <meta name="description" content="A green bond across borders. Experience the true spirit of Wabi-Sabi through digital ownership of a living Bonsai nurtured in Japan's hidden valley of Miyoshi.">
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap');
+
+    .item-eyecatch__catch,
+    .story__text,
+    .producer__bio {
+      font-family: 'Noto Sans JP', sans-serif;
+      letter-spacing: 0.08em;
+      line-height: 2.0;
+    }
+    .item-eyecatch__catch {
+      font-weight: 700;
+      font-family: 'Noto Sans JP', sans-serif;
+      text-align: center;
+      line-height: 1.6;
+      letter-spacing: 0.05em;
+      padding: 6rem 0;
+      font-size: clamp(1.4rem, 5vw, 2.2rem);
+    }
+
+   @media (max-width: 767px) {
+      /* キャッチコピー3行をスマホ1画面に収める */
+      .item-eyecatch__catch {
+        font-size: clamp(1.1rem, 4.5vw, 1.8rem);
+        line-height: 1.7;
+        padding: 0 var(--sp-sm);
+        margin-top: -52px;
+        /* フォールバック（古いブラウザ） */
+        min-height: calc(100vh + 52px);
+        /* 動的ビューポート高さ（iOS Safari・全機種対応） */
+        min-height: calc(100dvh + 52px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+
+    /* 写真②下余白 */
+    .story__image--gap { margin-bottom: 6rem; }
+
+    /* テキストブロック サブタイトル */
+    .story__subtitle {
+      font-family: 'Noto Sans JP', sans-serif;
+      font-size: clamp(1rem, 2.5vw, 1.3rem);
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-align: center;
+      margin: 0 auto var(--sp-sm);
+      max-width: var(--max-w-n);
+    }
+
+    .lang-switch {
+      position: fixed; top: 1rem; right: 1.5rem; z-index: 200;
+      font-family: Helvetica, sans-serif; font-size: 0.7rem; letter-spacing: 0.14em;
+      color: var(--ink-muted); background: var(--bg); border: 1px solid var(--border);
+      padding: 0.35rem 0.85rem; text-decoration: none;
+      transition: color 0.2s, border-color 0.2s;
+    }
+    .lang-switch:hover { color: var(--ink); border-color: var(--ink); }
+  </style>
+</head>
+<body class="item-page">
+
+  <a href="01_bonsai-digital-ja.html" class="lang-switch">JA</a>
+
+  <!-- Navigation -->
+  <nav class="nav nav--light">
+    <a href="../index.html" class="nav__logo">MIYOSHI B SIDE STORY</a>
+    <ul class="nav__links">
+      <li><a href="../index-catalog.html">Catalog</a></li>
+      <li><a href="../about.html">About</a></li>
+      <li><a href="../contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- ── Eye-catch ──────────────────────────────────────── -->
+  <section class="item-eyecatch">
+    <p class="item-eyecatch__catch">
+      Love the changing form.<br>
+      Within a small pot unfolds,<br>
+      an art that embraces the passage of time.
+    </p>
+
+    <img class="item-eyecatch__image" src="images/bonsai-1.png" alt="Bonsai">
+     <br> <br><br><br><br><br>
+
+    <p class="item-eyecatch__subcatch">Experience & Craft</p>
+    <h1 class="item-eyecatch__name">Bonsai</h1>
+    <p class="item-eyecatch__producer">Shiraki Bonsai Garden</p>
+  </section>
+
+  <!-- ── Story ─────────────────────────────────────────── -->
+  <article class="story container--n">
+ <br> <br><br><br><br><br>
+    <div class="story__block">
+      <h2 class="story__subtitle">The Essence of Wabi-Sabi</h2>
+      
+    </div>
+
+    <img class="story__image story__image--gap" src="images/bonsai-2.webp" alt="Japanese garden">
+
+    <div class="story__block story__block--text">
+      <p class="story__text">
+        At the heart of the art of bonsai lies the ancient Japanese spirit of Wabi-Sabi. Wabi-Sabi is a uniquely Japanese aesthetic cultivated over generations. "Wabi" speaks to finding beauty and depth in simplicity and quietness, while "Sabi" affirms the appreciation of aged and withered things, recognizing their graceful charm. It does not mourn the slow transformation that time brings; rather, it quietly accepts the present form as it is, honoring its inherent dignity. To feel the profound, wordless joy that lives within that acceptance is the very essence of Wabi-Sabi.
+      <br> <br><br><br><br><br>
+    </p>
+    </div>
+
+    <div class="story__block">
+      <h2 class="story__subtitle">Bonsai and Wabi-Sabi</h2>
+    </div>
+
+    <img class="story__image" src="images/bonsai-3.webp" alt="Bonsai trunk">
+
+    <div class="story__block story__block--text">
+      <p class="story__text">
+        Within bonsai expression are many elegant styles and techniques—such as moyogi (informal upright) and chokkan (formal upright)—developed by artisans over time. The single purpose shared by all these forms is simple: through touching the tree, trimming with shears, and tending its water, one cultivates within oneself a rich sensibility that sees beauty in transience and in graceful aging.<br><br>
+        The true enjoyment of bonsai resides in this spirit. Capturing the grandeur of nature inside a small pot, tending it with care for decades, conversing with the living material, and patiently facing it—bonsai is an art that affirms the flow of time itself.
+       <br> <br><br><br><br><br>
+      </p>
+    </div>
+
+  </article>
+
+  <!-- ── Producer ───────────────────────────────────────── -->
+  <section class="producer">
+    <p class="producer__label"></p>
+    <img class="producer__portrait" src="images/bonsai-portrait.webp" alt="Shiraki Bonsai Garden">
+    <p class="producer__name">Mitsuhiro Shiraki</p>
+    <p class="producer__title">Shiraki Bonsai Garden / Local Artisans</p>
+    <p class="producer__bio">
+      To bring a bonsai into your care is, in essence, to touch the artisan's Wabi-Sabi heart. Collected from the austere generosity of nature and, through the maker’s precise knowledge and exceptional skill, discovered anew as a living form—bonsai offer a world in miniature. Within this tiny realm, a culture that has, over centuries, passed along deep thought and philosophy continues to evolve its expressions. Will you not encounter it?
+     <br> <br><br><br><br><br>
+    </p>
+    <p class="producer__message"></p>
+  </section>
+
+  <!-- ── I'm Interested ─────────────────────────────────── -->
+  <section class="interest-section">
+    <p class="interest-section__label">Interested?</p>
+    <button class="btn-interest" id="btnInterest" aria-label="I'm interested">I'm interested</button>
+  </section>
+
+  <!-- ── Back Link ──────────────────────────────────────── -->
+  <a href="../index-catalog.html" class="back-link">← Back to Catalog</a>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p class="footer__logo">local drip</p>
+    <p class="footer__copy">© 2024 MIYOSHI BOUND. Tokushima, Japan.</p>
+  </footer>
+
+  <!-- ── Tracking ───────────────────────────────────────── -->
+  <script src="../js/tracking.js"></script>
+  <script>
+    var SHOP_ID = 'bonsai-digital';
+    (function() {
+      var params = new URLSearchParams(window.location.search);
+      var fromParam = params.get('shop');
+      if (fromParam) { SHOP_ID = fromParam; return; }
+      if (SHOP_ID === '[EDIT_SHOP_ID]' || !SHOP_ID) {
+        var filename = window.location.pathname.split('/').pop().replace('.html', '');
+        SHOP_ID = filename || 'unknown';
+      }
+    })();
+    MiyoshiTrack.send({ shop: SHOP_ID, type: 'view' });
+    var btn = document.getElementById('btnInterest');
+    if (btn) {
+      btn.addEventListener('click', function() {
+        if (btn.classList.contains('is-liked')) return;
+        btn.classList.add('is-liked');
+        btn.textContent = 'ありがとう ♡';
+        MiyoshiTrack.send({ shop: SHOP_ID, type: 'like' });
+      });
+    }
+  </script>
+</body>
+</html>

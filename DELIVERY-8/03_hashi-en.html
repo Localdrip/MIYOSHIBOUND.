@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Chopsticks (HASHI) — MIYOSHI BOUND</title>
+<meta content="Bring 1,200 years of Hashikura-ji history to your table. The artisans of Hashikurayama craft Japanese 'hashi' that connect two worlds." name="description"/>
+<link href="../css/style.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="../css/style-mobile.css">
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap');
+
+    .item-eyecatch__catch,
+    .story__text,
+    .producer__bio {
+      font-family: 'Noto Sans JP', sans-serif;
+      letter-spacing: 0.08em;
+      line-height: 2.0;
+    }
+    .item-eyecatch__catch {
+      font-weight: 700;
+      font-family: 'Noto Sans JP', sans-serif;
+      text-align: center;
+      line-height: 1.6;
+      letter-spacing: 0.05em;
+      padding: 6rem 0;
+      font-size: clamp(1.4rem, 5vw, 2.2rem);
+    }
+
+    @media (max-width: 767px) {
+      /* キャッチコピー3行をスマホ1画面に収める */
+      .item-eyecatch__catch {
+        font-size: clamp(1.1rem, 4.5vw, 1.8rem);
+        line-height: 1.7;
+        padding: 0 var(--sp-sm);
+        margin-top: -52px;
+        /* フォールバック（古いブラウザ） */
+        min-height: calc(100vh + 52px);
+        /* 動的ビューポート高さ（iOS Safari・全機種対応） */
+        min-height: calc(100dvh + 52px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+
+    /* 写真②下余白 */
+    .story__image--gap { margin-bottom: 6rem; }
+
+    /* テキストブロック サブタイトル */
+    .story__subtitle {
+      font-family: 'Noto Sans JP', sans-serif;
+      font-size: clamp(1rem, 2.5vw, 1.3rem);
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-align: center;
+      margin: 0 auto var(--sp-sm);
+      max-width: var(--max-w-n);
+    }
+
+    .lang-switch {
+      position: fixed; top: 1rem; right: 1.5rem; z-index: 200;
+      font-family: Helvetica, sans-serif; font-size: 0.7rem; letter-spacing: 0.14em;
+      color: var(--ink-muted); background: var(--bg); border: 1px solid var(--border);
+      padding: 0.35rem 0.85rem; text-decoration: none;
+      transition: color 0.2s, border-color 0.2s;
+    }
+    .lang-switch:hover { color: var(--ink); border-color: var(--ink); }
+  </style>
+</head>
+<body class="item-page">
+<a class="lang-switch" href="03_hashi.html">EN</a>
+<!-- Navigation -->
+<nav class="nav nav--light">
+<a class="nav__logo" href="../index.html">MIYOSHI B SIDE STORY</a>
+<ul class="nav__links">
+<li><a href="../index-catalog.html">Catalog</a></li>
+<li><a href="../about.html">About</a></li>
+<li><a href="../contact.html">Contact</a></li>
+</ul>
+</nav>
+<!-- ── Eye-catch ──────────────────────────────────────── -->
+<section class="item-eyecatch" style="padding-left: 0; padding-right: 0;">
+<p class="item-eyecatch__catch">
+      These chopsticks may stick in your mind,<br/>
+      Because they bridge your daily dining<br/>
+      to over 1,200 years of Hashikura-ji history.
+    </p>
+<img alt="Two pairs of chopsticks in a presentation box" class="item-eyecatch__image" src="images/hashi-1.jpg"/>
+     <br> <br><br><br><br><br>
+<p class="item-eyecatch__subcatch">Craft</p>
+<h1 class="item-eyecatch__name">Chopsticks</h1>
+<p class="item-eyecatch__producer">Hashikurayama / Local Artisans</p>
+</section>
+<!-- ── Story ─────────────────────────────────────────── -->
+<article class="story container--n">
+     <br> <br><br><br><br><br>
+    <div class="story__block"><h2 class="story__subtitle">Two Worlds Linked by the Sound "Hashi"</h2></div>
+
+    <img alt="Candles on a nighttime altar" class="story__image story__image--gap" src="images/hashi-2.png"/>
+
+    <div class="story__block story__block--text"><p class="story__text">
+        The Japanese sound "hashi" carries two meanings. One refers to the indispensable chopsticks at the daily dining table. The other refers to a bridge that connects two places or worlds. This overlap of meanings—whether by chance or design—quietly reveals the profound significance of the tool called hashi. Through the act of eating, it links people to one another, people to nature, and the present to the past. Chopsticks are not merely utensils; they are themselves a "bridge" that has connected Japanese life and spirit.
+     <br> <br><br><br><br><br>
+      </p></div>
+
+    <div class="story__block"><h2 class="story__subtitle">About Hashikura-ji</h2></div>
+
+    <img alt="Chopsticks close-up in a gold-leaf case" class="story__image" src="images/hashi-3.webp"/>
+
+    <div class="story__block story__block--text"><p class="story__text">
+        Nestled in Miyoshi City, Tokushima Prefecture, Hashikura-ji is an ancient temple boasting more than 1,200 years of history. Known as the "shrine of the chopstick god," the temple holds an annual "hashi kuyo"—a memorial service where many worshippers bring their worn chopsticks to be offered with gratitude. The respect and thanks for the chopsticks that have supported meals and connected lives—this culture of prayer continues to be passed down to this day. The artisans of Hashikurayama, carrying the faith and history rooted in this place, finish each pair with careful handwork. Chopsticks imbued with the warmth of wood and the spirit of the craftsman will transform the everyday table into a sacred space.
+     <br> <br><br><br><br><br>
+      </p></div>
+
+  </article>
+<!-- ── Producer ───────────────────────────────────────── -->
+<section class="producer">
+<p class="producer__label">From the Makers</p>
+<img alt="Hashikurayama" class="producer__portrait" src="images/hashi-portrait.png" style="object-position: center center;"/>
+<p class="producer__name">Hashikurayama</p>
+<p class="producer__title">Hashikurayama / Local Artisans</p>
+<p class="producer__bio">
+      Thank you for taking up this piece. We hope these chopsticks—imbued with the history and spirit of Hashikura-ji—will sit gently at your daily table and bring a small sense of richness. Please enjoy the 1,200 years of prayers and the craftsman's handwork contained in each pair.
+     <br> <br><br><br><br><br>
+    </p>
+<p class="producer__message"></p>
+</section>
+<!-- ── I'm Interested ─────────────────────────────────── -->
+<section class="interest-section">
+<p class="interest-section__label">Interested?</p>
+<button aria-label="気になる" class="btn-interest" id="btnInterest">I'm interested</button>
+</section>
+<!-- ── Back Link ──────────────────────────────────────── -->
+<a class="back-link" href="../index-catalog.html">← Back to Catalog</a>
+<!-- Footer -->
+<footer class="footer">
+<p class="footer__logo">local drip</p>
+<p class="footer__copy">© 2024 MIYOSHI BOUND. Tokushima, Japan.</p>
+</footer>
+<!-- ── Tracking ───────────────────────────────────────── -->
+<script src="../js/tracking.js"></script>
+<script>
+    var SHOP_ID = 'hashi-hashikura';
+    (function() {
+      var params = new URLSearchParams(window.location.search);
+      var fromParam = params.get('shop');
+      if (fromParam) { SHOP_ID = fromParam; return; }
+      if (SHOP_ID === '[EDIT_SHOP_ID]' || !SHOP_ID) {
+        var filename = window.location.pathname.split('/').pop().replace('.html', '');
+        SHOP_ID = filename || 'unknown';
+      }
+    })();
+    MiyoshiTrack.send({ shop: SHOP_ID, type: 'view' });
+    var btn = document.getElementById('btnInterest');
+    if (btn) {
+      btn.addEventListener('click', function() {
+        if (btn.classList.contains('is-liked')) return;
+        btn.classList.add('is-liked');
+        btn.textContent = 'ありがとう ♡';
+        MiyoshiTrack.send({ shop: SHOP_ID, type: 'like' });
+      });
+    }
+  </script>
+</body>
+</html>
