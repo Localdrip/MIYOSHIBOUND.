@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BONSAI × Digital Ownership — MIYOSHI BOUND</title>
+  <meta name="description" content="A green bond across borders. Experience the true spirit of Wabi-Sabi through digital ownership of a living Bonsai nurtured in Japan's hidden valley of Miyoshi.">
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap');
+
+    .item-eyecatch__catch,
+    .story__text,
+    .producer__bio {
+      font-family: 'Noto Sans JP', sans-serif;
+      letter-spacing: 0.08em;
+      line-height: 2.0;
+    }
+    .item-eyecatch__catch {
+      font-weight: 700;
+      font-family: 'Noto Sans JP', sans-serif;
+      text-align: center;
+      line-height: 1.6;
+      letter-spacing: 0.05em;
+      padding: 6rem 0;
+      font-size: clamp(1.4rem, 5vw, 2.2rem);
+    }
+
+   @media (max-width: 767px) {
+      /* キャッチコピー3行をスマホ1画面に収める */
+      .item-eyecatch__catch {
+        font-size: clamp(1.1rem, 4.5vw, 1.8rem);
+        line-height: 1.7;
+        padding: 0 var(--sp-sm);
+        margin-top: -52px;
+        /* フォールバック（古いブラウザ） */
+        min-height: calc(100vh + 52px);
+        /* 動的ビューポート高さ（iOS Safari・全機種対応） */
+        min-height: calc(100dvh + 52px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+
+    /* 写真②下余白 */
+    .story__image--gap { margin-bottom: 6rem; }
+
+    /* テキストブロック サブタイトル */
+    .story__subtitle {
+      font-family: 'Noto Sans JP', sans-serif;
+      font-size: clamp(1rem, 2.5vw, 1.3rem);
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-align: center;
+      margin: 0 auto var(--sp-sm);
+      max-width: var(--max-w-n);
+    }
+
+    .lang-switch {
+      position: fixed; top: 1rem; right: 1.5rem; z-index: 200;
+      font-family: Helvetica, sans-serif; font-size: 0.7rem; letter-spacing: 0.14em;
+      color: var(--ink-muted); background: var(--bg); border: 1px solid var(--border);
+      padding: 0.35rem 0.85rem; text-decoration: none;
+      transition: color 0.2s, border-color 0.2s;
+    }
+    .lang-switch:hover { color: var(--ink); border-color: var(--ink); }
+  </style>
+</head>
+<body class="item-page">
+
+  <a href="01_bonsai-digital.html" class="lang-switch">EN</a>
+
+  <!-- Navigation -->
+  <nav class="nav nav--light">
+    <a href="../index.html" class="nav__logo">MIYOSHI B SIDE STORY</a>
+    <ul class="nav__links">
+      <li><a href="../index-catalog.html">Catalog</a></li>
+      <li><a href="../about.html">About</a></li>
+      <li><a href="../contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- ── Eye-catch ──────────────────────────────────────── -->
+  <section class="item-eyecatch">
+    <p class="item-eyecatch__catch">
+      変わっていく姿を、愛する。<br>
+      小さな鉢のなかに広がる、<br>
+      時の流れを肯定する芸術。
+    </p>
+
+    <img class="item-eyecatch__image" src="images/bonsai-1.png" alt="盆栽">
+     <br> <br><br><br><br><br>
+
+    <p class="item-eyecatch__subcatch">Experience & Craft</p>
+    <h1 class="item-eyecatch__name">盆栽</h1>
+    <p class="item-eyecatch__producer">白木盆栽園</p>
+  </section>
+
+  <!-- ── Story ─────────────────────────────────────────── -->
+  <article class="story container--n">
+ <br> <br><br><br><br><br>
+    <div class="story__block">
+      <h2 class="story__subtitle">侘び寂びとは</h2>
+      
+    </div>
+
+    <img class="story__image story__image--gap" src="images/bonsai-2.webp" alt="日本庭園">
+
+    <div class="story__block story__block--text">
+      <p class="story__text">
+        盆栽という芸術の根底には、日本古来の「侘び寂び（Wabi-Sabi）」の精神が深く息づいています。「侘び寂び」とは、日本人が古くから育んできた独自の美的感覚（美意識）です。侘びとは質素で静かなものの中に美しさや奥深さを見出す意味を持ち、寂びとは古びたもの、枯れたものから趣を感じる心の動きを肯定すること。気の遠くなるような年月をかけて形を変え、移り変わっていく目の前の姿を憂うのではない。あるがままの尊い姿として静かに受け入れること。その中に宿る、言葉にできないほど静かで深い喜びを感じることこそが、侘び寂びの本質なのです。
+      <br> <br><br><br><br><br>
+    </p>
+    </div>
+
+    <div class="story__block">
+      <h2 class="story__subtitle">盆栽と侘び寂び</h2>
+    </div>
+
+    <img class="story__image" src="images/bonsai-3.webp" alt="盆栽の幹">
+
+    <div class="story__block story__block--text">
+      <p class="story__text">
+        盆栽の表現には、「模様木（もようぎ）」や「直幹（ちょっかん）」など、先人たちが編み出してきた数々の美しいスタイル（作法）が存在します。そのすべての様式に共通している目的はたった一つ。盆栽に触れ、ハサミを入れ、水を分けるという行為を通じて、「移ろい、侘びていくものを美しいと思える豊かな感性」を自分の中に育むことに他なりません。<br><br>
+        盆栽の本質的な楽しみ方は、まさにこの心にあります。大自然の雄大な姿を小さな鉢の中に写し取り、何十年もの間、人間の手で愛情を注ぎ、自然と対話し、じっくりと向き合い続ける。盆栽とは、時間の流れそのものを肯定する芸術なのです。
+       <br> <br><br><br><br><br>
+      </p>
+    </div>
+
+  </article>
+
+  <!-- ── Producer ───────────────────────────────────────── -->
+  <section class="producer">
+    <p class="producer__label"></p>
+    <img class="producer__portrait" src="images/bonsai-portrait.webp" alt="白木盆栽園">
+    <p class="producer__name">MISTUHIRO SIRAKI</p>
+    <p class="producer__title">白木盆栽園 / Local Artisans</p>
+    <p class="producer__bio">
+      盆栽を手に入れるということは、作り手のその侘び寂びの心に触れることと同じ意味を持ちます。厳格な大自然から採取され、作り手の確かな知識と卓越した技術によって、新たな「生命」としての在り方を見出される盆栽。この極小の世界の中に、何千年もかけて、深い思想と哲学のバトンを繋いで表現の形を進化させてきた盆栽の文化に触れてみませんか？
+     <br> <br><br><br><br><br>
+    </p>
+    <p class="producer__message"></p>
+  </section>
+
+  <!-- ── I'm Interested ─────────────────────────────────── -->
+  <section class="interest-section">
+    <p class="interest-section__label">気になりましたか？</p>
+    <button class="btn-interest" id="btnInterest" aria-label="気になる">気になる</button>
+  </section>
+
+  <!-- ── Back Link ──────────────────────────────────────── -->
+  <a href="../index-catalog.html" class="back-link">← カタログへ戻る</a>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p class="footer__logo">local drip</p>
+    <p class="footer__copy">© 2024 MIYOSHI BOUND. Tokushima, Japan.</p>
+  </footer>
+
+  <!-- ── Tracking ───────────────────────────────────────── -->
+  <script src="../js/tracking.js"></script>
+  <script>
+    var SHOP_ID = 'bonsai-digital';
+    (function() {
+      var params = new URLSearchParams(window.location.search);
+      var fromParam = params.get('shop');
+      if (fromParam) { SHOP_ID = fromParam; return; }
+      if (SHOP_ID === '[EDIT_SHOP_ID]' || !SHOP_ID) {
+        var filename = window.location.pathname.split('/').pop().replace('.html', '');
+        SHOP_ID = filename || 'unknown';
+      }
+    })();
+    MiyoshiTrack.send({ shop: SHOP_ID, type: 'view' });
+    var btn = document.getElementById('btnInterest');
+    if (btn) {
+      btn.addEventListener('click', function() {
+        if (btn.classList.contains('is-liked')) return;
+        btn.classList.add('is-liked');
+        btn.textContent = 'ありがとう ♡';
+        MiyoshiTrack.send({ shop: SHOP_ID, type: 'like' });
+      });
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,248 @@
+
+pasted_content_2.txt
+テキスト · 6.53 KB
+vsコードで見たらOPENできなかった
+資料に合う形で完全にトレースして
+新しい資料を確認します。
+ベースファイルを完全にトレースして作り直しました。今回は pages/ フォルダではなく単独ファイルとして出力しています。
+ベースとの差分は以下のみです。
+箇所
+ベース（みつまた）
+盆栽ページ
+<title>
+みつまた子立 — MIYOSHI BOUND
+BONSAI × Digital Ownership — MIYOSHI BOUND
+<meta description>
+みつまたの説明
+Wabi-Sabi / digital ownership の英語文
+lang-switch リンク先
+mitsumata-kodachi.html
+bonsai-digital.html
+キャッチコピー3行
+飾るのは、400年のストーリー。他
+盆栽とは、芸術の中で最も / 日本人の心を投影した / 芸術の1つである。
+画像①ファイル名
+mistumataA.jpg
+bonsai.jpg
+カテゴリラベル
+Craft
+Experience & Craft
+商品名（H1）
+みつまた子立
+盆栽
+生産者名
+AKIRA OHNO / mistumata.work
+白木盆栽園
+ストーリー本文①
+みつまたの歴史
+侘び寂びの精神と盆栽の本質
+画像②ファイル名
+mitsumataB.jpg
+bonsai-2.jpg
+ストーリー本文②
+皮を剥く製法
+生命のレシピ・さし木の知恵
+画像③ファイル名
+IMG_5957.jpg
+bonsai-3.jpg
+ストーリー本文③
+芯の木・染色
+デジタルオーナーシップの提供メッセージ
+producer__label
+つくり手より
+体験について
+producer__name
+大野 陽
+MIYOSHI BOUND
+producer__title
+mistumata.work
+Local Artisans
+producer__bio
+職人のメッセージ
+国境を越える緑の絆（日英）
+SHOP_ID
+mitsumata-kodachi
+bonsai-digital
+画像は bonsai.jpg / bonsai-2.jpg / bonsai-3.jpg の仮名です。実ファイル名が決まり次第 src を差し替えてください。
+bonsai-digital-ja.html
+コード · 7.49 KB
+このタスク内のすべてのファイルを表示
+タスクが完了しました
+この結果はどうでしたか？
+おすすめの追跡質問
+
+
+
+
+Manus is an AI Agent and can make mistakes. Please double-check before use.
+
+Manusのコンピュータ
+Manus はエディタを使用しています
+ファイルを作成していますbonsai-digital-ja.html
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BONSAI × Digital Ownership — MIYOSHI BOUND</title>
+  <meta name="description" content="A green bond across borders. Experience the true spirit of Wabi-Sabi through digital ownership of a living Bonsai nurtured in Japan's 
+ライブ
+bonsai-digital-ja.html
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BONSAI × Digital Ownership — MIYOSHI BOUND</title>
+  <meta name="description" content="A green bond across borders. Experience the true spirit of Wabi-Sabi through digital ownership of a living Bonsai nurtured in Japan's hidden valley of Miyoshi.">
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    /* 日本語版専用：英語版と同一レイアウト、フォントのみ調整 */
+    .item-eyecatch__catch,
+    .story__text,
+    .producer__bio {
+      font-family: 'Noto Sans JP', sans-serif;
+      letter-spacing: 0.08em;
+      line-height: 2.0;
+    }
+    .item-eyecatch__catch {
+      font-weight: 300;
+    }
+    .lang-switch {
+      position: fixed;
+      top: 1rem;
+      right: 1.5rem;
+      z-index: 200;
+      font-family: Helvetica, sans-serif;
+      font-size: 0.7rem;
+      letter-spacing: 0.14em;
+      color: var(--ink-muted);
+      background: var(--bg);
+      border: 1px solid var(--border);
+      padding: 0.35rem 0.85rem;
+      text-decoration: none;
+      transition: color 0.2s, border-color 0.2s;
+    }
+    .lang-switch:hover {
+      color: var(--ink);
+      border-color: var(--ink);
+    }
+  </style>
+</head>
+<body class="item-page">
+
+  <!-- 言語切替 -->
+  <a href="bonsai-digital.html" class="lang-switch">EN</a>
+
+  <!-- Navigation -->
+  <nav class="nav nav--light">
+    <a href="../index.html" class="nav__logo">MIYOSHI B SIDE STORY</a>
+    <ul class="nav__links">
+      <li><a href="../index-catalog.html">Catalog</a></li>
+      <li><a href="../about.html">About</a></li>
+      <li><a href="../contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- ── Eye-catch ──────────────────────────────────────── -->
+  <section class="item-eyecatch">
+    <p class="item-eyecatch__catch">
+      盆栽とは、芸術の中で最も
+    </p>
+    <p class="item-eyecatch__catch">
+      日本人の心を投影した
+    </p>
+    <p class="item-eyecatch__catch">
+      芸術の1つである。
+    </p>
+
+    <img class="item-eyecatch__image" src="../images/bonsai.jpg" alt="盆栽">
+
+    <p class="item-eyecatch__subcatch">Experience & Craft</p>
+    <h1 class="item-eyecatch__name">盆栽</h1>
+    <p class="item-eyecatch__producer">白木盆栽園</p>
+  </section>
+
+  <!-- ── Story ─────────────────────────────────────────── -->
+  <article class="story container--n">
+
+    <div class="story__block">
+      <p class="story__text">
+        盆栽という芸術の根底には、日本古来の「侘び寂び（Wabi-Sabi）」の精神が深く息づいています。「侘び寂び」とは、ただ古びていくことではありません。気の遠くなるような年月をかけて形を変え、移り変わっていく目の前の姿を憂うのではない。あるがままの尊い姿として静かに受け入れること。その中に宿る、言葉にできないほど静かで深い喜びを感じることこそが、侘び寂びの本質なのです。盆栽の本質的な楽しみ方は、まさにこの心にあります。大自然の雄大な姿を小さな鉢の中に写し取り、何年、何十年もの間、人間の手で愛情を注ぎ、自然と対話し、じっくりと向き合い続ける。盆栽とは、時間の流れそのものを肯定する芸術なのです。
+      </p>
+    </div>
+
+    <img class="item-eyecatch__image" src="../images/bonsai-2.jpg" alt="盆栽 侘び寂び">
+
+    <div class="story__block">
+      <p class="story__text">
+        盆栽の表現には、「模様木（もようぎ）」や「直幹（ちょっかん）」など、先人たちが編み出してきた数々の美しいスタイル（作法）が存在します。しかし、そのすべての様式に共通している目的はたった一つ。盆栽に触れ、ハサミを入れ、水を分けるという行為を通じて、「移ろい、侘びていくものを美しいと思える豊かな感性」を自分の中に育むことに他なりません。小さな鉢に収まる木々は、すべて厳格な大自然から採取され、作り手の確かな知識と卓越した技術によって、新たな「生命」としての在り方を見出されます。時には、長い歴史の中で命が朽ちる瞬間にも直面します。しかし、日本人は「さし木」などの知恵によって、その命を新たな世代へと繋ぎ、生きながらえさせてきました。何千年もかけて、この極小の世界の中に、深い思想と哲学を育て上げてきたのが日本の盆栽なのです。
+      </p>
+    </div>
+
+    <img class="item-eyecatch__image" src="../images/bonsai-3.jpg" alt="盆栽 デジタルオーナーシップ">
+
+    <div class="story__block">
+      <p class="story__text">
+        この盆栽は、あなたがデジタルオーナーとして名前を授けたその瞬間から、あなた自身の生命の旅路と重なり合います。遠く離れた日本の秘境・三好の地で、職人の手によって大切に育まれながら、あなたと共に時を刻み続けます。
+      </p>
+    </div>
+
+  </article>
+
+  <!-- ── Producer ───────────────────────────────────────── -->
+  <section class="producer">
+    <p class="producer__label">体験について</p>
+    <p class="producer__name">MIYOSHI BOUND</p>
+    <p class="producer__title">Local Artisans</p>
+    <p class="producer__bio">
+      国境を越える緑の絆。あなたの魂が名付けた木が、日本の秘境で生き続ける。<br>
+      "A green bond across borders. The tree you named lives on in Japan's hidden valley."
+    </p>
+    <p class="producer__message"></p>
+  </section>
+
+  <!-- ── I'm Interested ─────────────────────────────────── -->
+  <section class="interest-section">
+    <p class="interest-section__label">気になりましたか？</p>
+    <button class="btn-interest" id="btnInterest" aria-label="気になる">
+      気になる
+    </button>
+  </section>
+
+  <!-- ── Back Link ──────────────────────────────────────── -->
+  <a href="../index-catalog.html" class="back-link">← カタログへ戻る</a>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p class="footer__logo">local drip</p>
+    <p class="footer__copy">© 2024 MIYOSHI BOUND. Tokushima, Japan.</p>
+  </footer>
+
+  <!-- ── Tracking ───────────────────────────────────────── -->
+  <script src="../js/tracking.js"></script>
+  <script>
+    var SHOP_ID = 'bonsai-digital';
+
+    (function() {
+      var params = new URLSearchParams(window.location.search);
+      var fromParam = params.get('shop');
+      if (fromParam) { SHOP_ID = fromParam; return; }
+    })();
+
+    MiyoshiTrack.send({ shop: SHOP_ID, type: 'view' });
+
+    var btn = document.getElementById('btnInterest');
+    if (btn) {
+      btn.addEventListener('click', function() {
+        if (btn.classList.contains('is-liked')) return;
+        btn.classList.add('is-liked');
+        btn.textContent = 'ありがとう ♡';
+        MiyoshiTrack.send({ shop: SHOP_ID, type: 'like' });
+      });
+    }
+  </script>
+</body>
+</html>
+説明
+三好市物産品PRサイト制作の要件と依頼内容 - Manus
